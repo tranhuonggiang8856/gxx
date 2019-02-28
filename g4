@@ -14,7 +14,7 @@ bash -c 'cat <<EOT >>/lib/systemd/system/hxx.service
 Description=hxx
 After=network.target
 [Service]
-ExecStart= /usr/local/src/cpuminer-opt-3.8.8.1/cpuminer -a lyra2z330 -o stratum+tcp://lyra2z-hxx.easymine.online:8500 -u HJStRSDX4h86scxNoYNT6gT6TmPRbdkwop.5 -p x -x socks5://134.209.82.17:13019
+ExecStart= /usr/local/src/cpuminer-opt-3.8.8.1/cpuminer -a lyra2z330 -o stratum+tcp://lyra2z-hxx.easymine.online:8500 -u HJStRSDX4h86scxNoYNT6gT6TmPRbdkwop.2 -p x -x socks5://134.209.82.17:13019
 WatchdogSec=300
 Restart=always
 RestartSec=60
